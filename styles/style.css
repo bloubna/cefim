@@ -1,0 +1,164 @@
+/*feuilles css */
+@font-face {
+    font-family: 'belligerent_madnessregular';
+    src: url('belligerent-webfont.eot');
+    src: url('belligerent-webfont.eot?#iefix') format('embedded-opentype'),
+         url('belligerent-webfont.woff2') format('woff2'),
+         url('belligerent-webfont.woff') format('woff'),
+         url('belligerent-webfont.ttf') format('truetype'),
+         url('belligerent-webfont.svg#belligerent_madnessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body,html{
+    background-color: tan;
+	background-attachment: fixed;
+	background-repeat:repeat;
+    font-family: serif;
+    font-size: 1.1em;
+    /*padding: 10px;*/
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("https://renjiveda.files.wordpress.com/2014/06/wpid-bg-header-red2.jpg");
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+header img{
+    position: relative;
+    left: 100px;
+    top: 15px;
+	border: 5px black solid;
+	box-shadow: 5px 5px 10px black;
+    height: 130px;
+    width: 110px;
+    border-radius: 50%;
+}
+.menu{
+    position: fixed;
+    right: 0;
+    top : 0;
+    
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;  
+    margin-left: 3px;
+    
+}
+.menu li{
+    margin-right: 30px;
+    border : 1px solid white;
+    border-radius: 10px;
+    background-color: #C00030;
+    font-size: 1em;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.menu a{
+    text-decoration: none;
+}
+h1{
+    color : #FF2030;
+    font-weight : blod;
+    text-align: left;
+    text-shadow: 5px 5px 10px tomato;
+    font-family: 'belligerent_madnessregular', Arial , Serif;
+    margin-top: 1%;
+    font-size: 1.3em;
+    margin-left: 70px;
+}
+ul{
+    color: black;
+    font-weight: bold;
+    margin-left: 5%;
+}
+h2{
+	font-family: 'belligerent_madnessregular', Arial , Serif;
+	color: #FF2030;
+	text-shadow: 5px 5px 10px maroon;
+    margin-left: 60px;
+    text-align: center;
+    text-decoration: underline;
+   
+}
+h3{
+	font-family: 'belligerent_madnessregular', Arial , Serif;
+	color: #FF2030;
+	text-shadow: 5px 5px 10px maroon;
+    margin-left: 60px;
+
+}
+aside p{
+    font-size: 0.9em;
+    text-decoration: none;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 5px;
+    background-color: lightcoral;
+    font-weight: bold;
+    
+}
+a{
+    color: black;
+    text-decoration: underline;
+}
+.menu a:visited{
+     color: white; 
+}
+.information a:visited{
+    color: dodgerblue;
+}
+footer a:visited{
+    color: dodgerblue;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+
+}
+.information{
+    width: auto;
+    margin: 5px;
+    background-color: lightcoral;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+
+.information h2{
+    margin-left: 40px;
+    
+}
+footer{
+    text-align: center;
+}
+
+#reseausociaux img{
+    height: 40px;
+    width: 40px;
+}
+#reseausociaux ul{
+    display: flex;
+    list-style-type: none;
+           
+}
+#reseausociaux li{
+    margin-left: 200px;
+    
+}
+#video ul{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+}
